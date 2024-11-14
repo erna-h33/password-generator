@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your website description here" />
+    <title>Boilerplate Template</title>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Normalize.css for Consistent Browser Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="white-text">Generate a</h1>
+      <h1 class="green-text">random password</h1>
+      <h2>Never use an insecure password again</h2>
+      <button id="pwd-btn" class="pwd-btn" onclick="generatePwd()">
+        Generate Passwords
+      </button>
+      <hr />
+      <div class="pwd-container">
+        <p class="pwd-wrapper" id="pwd1"></p>
+        <p class="pwd-wrapper" id="pwd2"></p>
+      </div>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+  </body>
+</html>
